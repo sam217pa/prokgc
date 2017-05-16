@@ -6,7 +6,6 @@ autom4te.cache/
 /config.status
 /src/Makefile
 *.o
-/install-sh
 /missing
 /depcomp
 src/.deps/
