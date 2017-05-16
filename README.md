@@ -63,7 +63,46 @@ agreement like can be done in BioPerl or BioPython.
 It also works on gzipped compressed multi-fasta file without prior
 decompression.
 
-## Install
+## Help
+
+Run
+
+```sh
+prokgc --help
+```
+
+to get :
+
+```
+Usage:
+  prokgc [OPTION?] - computes gc contents
+
+Synopsis:
+  Computes number of GC bases in the genome and coding sequences in three
+  codons positions.
+
+Help Options:
+  -h, --help       Show help options
+
+Application Options:
+  -H, --header     Print csv header
+  -c, --cds        CDS sequence file
+  -g, --genome     genome sequence file
+  -t, --taxid      Taxon ID of corresponding organism
+
+Description:
+  This script computes cds_gc contents in a multi-fasta file using kseq.h
+  included in the htseq library. It prints out a summary of the number of
+  chromosomes, the genome length, the number of GC and N bases, the number
+  of sequences in the CDS file, the number of sequence with canonical stop
+  codon, the cumulated length of coding sequences, the number of GC bases
+  in CDS, and the number of GC at positions 1, 2 and 3 of codons.
+
+  Return a csv file to STDOUT without header by default, with a header if
+  --header is specified.
+```
+
+`## Install
 
 ### Download
 
