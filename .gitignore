@@ -11,3 +11,4 @@ autom4te.cache/
 src/.deps/
 /src/prokgc
 /examples/Makefile
+*.gz
