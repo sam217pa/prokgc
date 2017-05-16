@@ -10,3 +10,4 @@ autom4te.cache/
 /depcomp
 src/.deps/
 /src/prokgc
+/examples/Makefile
